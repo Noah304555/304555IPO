@@ -1,4 +1,8 @@
-﻿using System;
+/*Noah Irving
+ * Feb 11 2019
+ * IPO model*/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -36,7 +40,7 @@ namespace _304555IPO
 
             area = length * width;
 
-            lblOutput.Content = "The area is:" + area.ToString("#.00");
+            lblOutput.Content = "The area is:" + area.ToString (format: "#.00");
         }
     }
 }
